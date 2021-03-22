@@ -46,7 +46,8 @@ public class Car implements Runnable {
             serv.shutdownNow();
         });}
 
-
+//Опять забыл добавить с самого начала проект на гит.
+        // Я походу тот еще безумец оформлять это через ExecutorService xD
         try {
             bar.await();
         } catch (InterruptedException e) {
